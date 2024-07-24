@@ -1,0 +1,15 @@
+my_list=[1,2,3,4,6,3,4,3,3]
+my_list.append(99)
+print(*my_list)
+my_list.insert(2,78)
+print(*my_list)
+my_list.pop(0)
+print(*my_list)
+#print(len(*my_list))
+my_list_2=[5,6,7,8]
+new_list=my_list+my_list_2
+print(*new_list)
+cnt=my_list.count(3)
+print(cnt)
+my_list.sort()
+print(*my_list)
